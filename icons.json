@@ -4,6 +4,9 @@
         "sharp",
         "outline"
     ],
+    "variants": [
+        "pixel"
+    ],
     "icons": {
         "base": {
             "General": {

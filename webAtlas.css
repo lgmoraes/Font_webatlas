@@ -25,25 +25,29 @@
 .icon.circle2>*,.icon.circle3>*,.icon.circle-dashed>*,.icon.square-dashed>*,.icon.hexagon2-stroke>*{transform:scale(.5)}
 
 /* Multiple sets management */
-.icon::before,.icon-first::before{font-family:"WebAtlas-base"}
+.icon::before,.icon-first::before{font-family:"WebAtlas-base","WebAtlas-base-fallback"}
 .icon.original::before,.icon-first.original::before{font-family:"WebAtlas-base-original","WebAtlas-base";}
 .icon.sharp::before,.icon-first.sharp::before{font-family:"WebAtlas-base-sharp","WebAtlas-base";}
 .icon.outline::before,.icon-first.outline::before{font-family:"WebAtlas-base-outline","WebAtlas-base";}
+.icon.pixel::before,.icon-first.pixel::before{font-family:"WebAtlas-base-pixel","WebAtlas-base-sharp","WebAtlas-base";}
 
 .icon.editing::before{font-family:"WebAtlas-editing"}
 .icon.editing.original::before,.icon-first.editing.original::before{font-family:"WebAtlas-editing-original","WebAtlas-editing";}
 .icon.editing.sharp::before,.icon-first.editing.sharp::before{font-family:"WebAtlas-editing-sharp","WebAtlas-editing";}
 .icon.editing.outline::before,.icon-first.editing.outline::before{font-family:"WebAtlas-editing-outline","WebAtlas-editing";}
+.icon.editing.pixel::before,.icon-first.editing.pixel::before{font-family:"WebAtlas-editing-sharp","WebAtlas-editing";}
 
 .icon.geometrics::before{font-family:"WebAtlas-geometrics"}
 .icon.geometrics.original::before,.icon-first.geometrics.original::before{font-family:"WebAtlas-geometrics-original","WebAtlas-geometrics";}
 .icon.geometrics.sharp::before,.icon-first.geometrics.sharp::before{font-family:"WebAtlas-geometrics-sharp","WebAtlas-geometrics";}
 .icon.geometrics.outline::before,.icon-first.geometrics.outline::before{font-family:"WebAtlas-geometrics-outline","WebAtlas-geometrics";}
+.icon.geometrics.pixel::before,.icon-first.geometrics.pixel::before{font-family:"WebAtlas-geometrics-sharp","WebAtlas-geometrics";}
 
 .icon.games::before{font-family:"WebAtlas-games"}
 .icon.games.original::before,.icon-first.games.original::before{font-family:"WebAtlas-games-original","WebAtlas-games";}
 .icon.games.sharp::before,.icon-first.games.sharp::before{font-family:"WebAtlas-games-sharp","WebAtlas-games";}
 .icon.games.outline::before,.icon-first.games.outline::before{font-family:"WebAtlas-games-outline","WebAtlas-games";}
+.icon.games.pixel::before,.icon-first.games.pixel::before{font-family:"WebAtlas-games-sharp","WebAtlas-games";}
 
 @font-face {
     font-family: 'WebAtlas';

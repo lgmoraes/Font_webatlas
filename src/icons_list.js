@@ -49,15 +49,31 @@ var selectedIcon = null;
 function init() {
     var urlParams = getUrlParams();
     var list = urlParams.list ? urlParams.list : 'base';
-
+    
     loadList(list);
+
+    var optGroup = document.createElement('optgroup');
+    optGroup.label = "Styles";
+    select_style.appendChild(optGroup);
 
     for (var i = 0; i < data.styles.length; i++) {
         var style = data.styles[i];
         var e = document.createElement('option');
         e.value = style;
         e.innerHTML = ucfirst(style);
-        select_style.appendChild(e);
+        optGroup.appendChild(e);
+    }
+
+    optGroup = document.createElement('optgroup');
+    optGroup.label = "Variants";
+    select_style.appendChild(optGroup);
+
+    for (var i = 0; i < data.variants.length; i++) {
+        var variant = data.variants[i];
+        var e = document.createElement('option');
+        e.value = variant;
+        e.innerHTML = ucfirst(variant);
+        optGroup.appendChild(e);
     }
 
     showMessage("circle-info outline", TEXTS.intro);
