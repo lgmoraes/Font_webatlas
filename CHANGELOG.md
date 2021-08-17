@@ -1,5 +1,11 @@
 # CHANGELOG #
 
+Version 2.1.0
+
+* Introduction du système de variants avec le thème pixel (variant du thème Sharp)
+* Affichage des caractères alphanumériques dans icons_list.html
+* Correction d'un problème de hitbox dans icons_list.html
+
 Version 2.0.1
 
 * Correction de l'importation de la dépendance font_logos
@@ -14,7 +20,7 @@ Version 2.0.0
 * Possibilitée de combiner plusieurs icones
 * Refonte des caractères alphanumériques
 * Refonte de l'application Icons_list
-* Ajout d'options de copie dans l'application Icons_list
+* Ajout d'options de copie dans l'application icons_list.html
 
 Version 1.0.1
 
@@ -27,8 +33,8 @@ Version 1.0.0
 * Nouvelles icones ajoutés
 * Ajout du style d'icone Outline
 * Nouveau système multi-theme
-* Ajout d'une barre de recherche dans icons_list
-* Amélioration visuelle de icons_list
+* Ajout d'une barre de recherche dans icons_list.html
+* Amélioration visuelle de icons_list.html
 * Certaines icones ont été améliorés
 * Les caractères alphabétiques ont été améliorés
 * Correction de bugs
