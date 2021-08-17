@@ -36,6 +36,8 @@ var TEXTS = {
     copyClass: "has been copied to the clipboard!",
     copyHTML: "HTML code has been copied!",
     notForVariants: "Variants fonts supports only a limited number of icons",
+    alphanumeric: "All styles and variants include some stylized alphanumeric glyphs, such as monospace numbers :",
+    fontFamily: "font-family has been copied to the clipboard!",
     trademark: "This work includes material that may be protected as a trademark in some jurisdictions. If you want to use it, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. See the trademark owner for rules about appropriate use of their trademarks."
 };
 
@@ -496,6 +498,27 @@ function loadList(list) {
         }
 
         select_style.disabled = false;
+    }
+
+    if (list === "base") {
+        var p = document.createElement('p');
+        var div = document.createElement('div');
+        var fontFamily = "WebAtlas-base-" + style + ",WebAtlas-base";
+
+        p.innerHTML = TEXTS.alphanumeric;
+
+        div.className = "alphanumeric btn";
+        div.style.fontFamily = fontFamily;
+
+        div.innerHTML = "123456789.0 ! ? , ; \" & % # @ € $ +-*/^ x ( ) [ ] _ 1h23m45s <> 1:23:45";
+
+        div.onclick = function() {
+            showMessage("circle-info outline", TEXTS.fontFamily);
+            copyToClipboard(fontFamily);
+        };
+
+        divIcons.appendChild(p);
+        divIcons.appendChild(div);
     }
 
     for (category in categories) {
