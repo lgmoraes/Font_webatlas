@@ -50,10 +50,11 @@ Click on the icon you want to import, then click on `Copy class` or ` Copy HTML`
 
 ## Choice of theme
 
-3 themes are available :
+4 themes (including 1 variant) are available :
 - Original
 - Sharp
 - Outline
+- Pixel (variant of Sharp)
 
 Copy the link corresponding to the desired style :
 
@@ -66,26 +67,32 @@ Copy the link corresponding to the desired style :
 
 <!-- Theme Outline -->
 <link rel="stylesheet" type="text/css" href="node_modules/font_webatlas/font-face/webAtlas-outline.css">
+
+<!-- Variant Pixel -->
+<link rel="stylesheet" type="text/css" href="node_modules/font_webatlas/font-face/webAtlas-pixel.css">
 ```
 
 This allows you to propose several themes in your page or application, simply by interchanging these links.
 
 ## Use multiple themes at the same time
 
-The chosen theme defines the "default" theme, but you can "force" a different theme on a particular icon by adding `original`,`sharp` or `outline` class :
+The chosen theme defines the "default" theme, but you can "force" a different theme on a particular icon by adding `original`,`sharp`, `outline` or `pixel` class :
 
 ```html
 <!-- Displays the login icon in the default theme -->
-<i class="icon login"> Login</i>
+<i class="icon download"> Download</i>
 
 <!-- The icon is displayed in original -->
-<i class="icon login original"> Login</i>
+<i class="icon download original"> Download</i>
 
 <!-- The icon is displayed in sharp -->
-<i class="icon login sharp"> Login</i>
+<i class="icon download sharp"> Download</i>
 
 <!-- The icon is displayed in outline -->
-<i class="icon login outline"> Login</i>
+<i class="icon download outline"> Download</i>
+
+<!-- The icon is displayed in pixel -->
+<i class="icon download pixel"> Download</i>
 ```
 
 ## Combination of icons
