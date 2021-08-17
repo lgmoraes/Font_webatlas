@@ -641,6 +641,8 @@
                 "heart":"Ϥ",
                 "infinite":"ϣ",
                 "puzzle":"Ϫ",
+                "cursor":"Ǫ",
+                "hourglass":"ǫ",
                 "forbidden":"Э",
                 "forbidden2":"Ю"
             },
@@ -729,6 +731,30 @@
                 "loopUnique":"Կ",
                 "random":"Հ",
                 "addToList":"Ձ"
+            },
+            "Arrows": {
+                "arrow-swap":"ӣ",
+                "move":"Ӥ",
+                "arrow-left":"ҹ",
+                "arrow-up":"Һ",
+                "arrow-right":"һ",
+                "arrow-down":"Ҽ",
+                "arrow2-left":"Ӂ",
+                "arrow2-up":"ӂ",
+                "arrow2-right":"Ӄ",
+                "arrow2-down":"ӄ",
+                "arrow3-left":"Ӊ",
+                "arrow3-up":"ӊ",
+                "arrow3-right":"Ӌ",
+                "arrow3-down":"ӌ",
+                "arrow4-left":"ӑ",
+                "arrow4-up":"Ӓ",
+                "arrow4-right":"ӓ",
+                "arrow4-down":"Ӕ",
+                "arrow-list":"Ӳ",
+                "arrow2-list":"ӳ",
+                "arrow3-list":"Ӵ",
+                "arrow4-list":"ӵ"
             }
         }
     }
