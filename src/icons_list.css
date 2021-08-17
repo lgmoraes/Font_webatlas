@@ -117,6 +117,9 @@ h1 {
     text-align: center;
     box-sizing: border-box;
 }
+#sidebar .btn.disabled {
+    opacity: .3;
+}
 
 #content {
     overflow: auto;

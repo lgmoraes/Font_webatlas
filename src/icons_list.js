@@ -35,6 +35,7 @@ var TEXTS = {
     intro: "Click on the icon you want to copy",
     copyClass: "has been copied to the clipboard!",
     copyHTML: "HTML code has been copied!",
+    notForVariants: "Variants fonts supports only a limited number of icons",
     trademark: "This work includes material that may be protected as a trademark in some jurisdictions. If you want to use it, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. See the trademark owner for rules about appropriate use of their trademarks."
 };
 
@@ -240,7 +241,14 @@ function getClasses() {
 }
 
 select_style.onchange = function () {
-    loadList();
+    if (this.value.includes(data.variants)) {
+        loadList("base");
+        enableOnlyVariantBtns();
+    }
+    else {
+        loadList();
+        disableOnlyVariantBtns();
+    }
 };
 
 messageBox.onclick = function () {
@@ -428,6 +436,30 @@ function showAllIcones() {
     }
 }
 
+function enableOnlyVariantBtns() {
+    var btns = [btn_editing, btn_geometrics, btn_games];
+
+    btns.forEach(b => {
+        b.onclick = function() {
+            showMessage("circle-warning outline", TEXTS.notForVariants);
+        };
+
+        addClass("disabled", b);
+    });
+}
+
+function disableOnlyVariantBtns() {
+    var btns = [btn_editing, btn_geometrics, btn_games];
+
+    btns.forEach(b => {
+        b.onclick = function() {
+            loadList(this.id.slice(4));
+        };
+
+        removeClass("disabled", b);
+    });
+}
+
 function loadList(list) {
     var style = select_style.value || "original";   // "original" si la page n'est pas encore initialisée
     
@@ -451,12 +483,18 @@ function loadList(list) {
     divIcons.innerHTML = "";
     iconsElements = [];
 
-    if(list === "logos") {
+    if (list === "logos") {
         categories = data.addons.logos.icons;
         select_style.disabled = true;
     }
     else {
-        categories = data.icons[list];
+        if (data.variants.includes(style)) {
+            categories = data.variant_glyphs[list];
+        }
+        else {
+            categories = data.icons[list];
+        }
+
         select_style.disabled = false;
     }
 
