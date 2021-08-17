@@ -286,7 +286,7 @@ h1 {
     height: 22px;
     left: 5px;
     right: 5px;
-    bottom: 5px;
+    bottom: 8px;
     background: linear-gradient(to right,
         rgba(240,240,240,1) 0%,
         rgba(240,240,240,0) 5%,
@@ -297,7 +297,6 @@ h1 {
 .item .title {
     overflow: hidden;
     padding: 0 10px;
-    padding-bottom: 2px;
     font-size: 18px;
     white-space: nowrap;
 }
