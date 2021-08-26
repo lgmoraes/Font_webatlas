@@ -55,14 +55,6 @@
 }
 
 @font-face {
-    font-family: 'WebAtlas-editing-pixel';
-    src: url('../font/WebAtlas-editing-sharp.woff2') format('woff2'),
-         url('../font/WebAtlas-editing-sharp.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'WebAtlas-geometrics';
     src: url('../font/WebAtlas-geometrics-original.woff2') format('woff2'),
          url('../font/WebAtlas-geometrics-original.woff') format('woff');
@@ -87,14 +79,6 @@
 }
 
 @font-face {
-    font-family: 'WebAtlas-geometrics-pixel';
-    src: url('../font/WebAtlas-geometrics-sharp.woff2') format('woff2'),
-         url('../font/WebAtlas-geometrics-sharp.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'WebAtlas-games';
     src: url('../font/WebAtlas-games-original.woff2') format('woff2'),
          url('../font/WebAtlas-games-original.woff') format('woff');
@@ -114,14 +98,6 @@
     font-family: 'WebAtlas-games-outline';
     src: url('../font/WebAtlas-games-outline.woff2') format('woff2'),
          url('../font/WebAtlas-games-outline.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'WebAtlas-games-pixel';
-    src: url('../font/WebAtlas-games-sharp.woff2') format('woff2'),
-         url('../font/WebAtlas-games-sharp.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
