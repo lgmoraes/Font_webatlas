@@ -5,6 +5,7 @@
         "outline"
     ],
     "variants": [
+        "outline-filled",
         "pixel"
     ],
     "icons": {

@@ -243,7 +243,7 @@ function getClasses() {
 }
 
 select_style.onchange = function () {
-    if (this.value.includes(data.variants)) {
+    if (data.variants.includes(this.value)) {
         loadList("base");
         enableOnlyVariantBtns();
     }

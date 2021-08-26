@@ -23,6 +23,14 @@
 }
 
 @font-face {
+    font-family: 'WebAtlas-base-outline-filled';
+    src: url('../font/WebAtlas-base-outline-filled.woff2') format('woff2'),
+         url('../font/WebAtlas-base-outline-filled.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'WebAtlas-base-pixel';
     src: url('../font/WebAtlas-base-pixel.woff2') format('woff2'),
          url('../font/WebAtlas-base-pixel.woff') format('woff');

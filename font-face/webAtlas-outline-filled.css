@@ -1,0 +1,114 @@
+/* VARIANT START */
+@font-face {
+    font-family: 'WebAtlas-base-outline-filled';
+    src: url('../font/WebAtlas-base-outline-filled.woff2') format('woff2'),
+         url('../font/WebAtlas-base-outline-filled.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-base-fallback';
+    src: url('../font/WebAtlas-base-outline.woff2') format('woff2'),
+         url('../font/WebAtlas-base-outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* VARIANT END */
+
+
+@font-face {
+    font-family: 'WebAtlas-base';
+    src: url('../font/WebAtlas-base-outline-filled.woff2') format('woff2'),
+         url('../font/WebAtlas-base-outline-filled.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-base-original';
+    src: url('../font/WebAtlas-base-original.woff2') format('woff2'),
+         url('../font/WebAtlas-base-original.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-base-sharp';
+    src: url('../font/WebAtlas-base-sharp.woff2') format('woff2'),
+         url('../font/WebAtlas-base-sharp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-base-outline';
+    src: url('../font/WebAtlas-base-outline.woff2') format('woff2'),
+         url('../font/WebAtlas-base-outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-base-pixel';
+    src: url('../font/WebAtlas-base-pixel.woff2') format('woff2'),
+         url('../font/WebAtlas-base-pixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-editing';
+    src: url('../font/WebAtlas-editing-outline.woff2') format('woff2'),
+         url('../font/WebAtlas-editing-outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-editing-original';
+    src: url('../font/WebAtlas-editing-original.woff2') format('woff2'),
+         url('../font/WebAtlas-editing-original.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-geometrics';
+    src: url('../font/WebAtlas-geometrics-outline.woff2') format('woff2'),
+         url('../font/WebAtlas-geometrics-outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-geometrics-original';
+    src: url('../font/WebAtlas-geometrics-original.woff2') format('woff2'),
+         url('../font/WebAtlas-geometrics-original.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-games';
+    src: url('../font/WebAtlas-games-outline.woff2') format('woff2'),
+         url('../font/WebAtlas-games-outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-games-original';
+    src: url('../font/WebAtlas-games-original.woff2') format('woff2'),
+         url('../font/WebAtlas-games-original.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebAtlas-games-outline';
+    src: url('../font/WebAtlas-games-outline.woff2') format('woff2'),
+         url('../font/WebAtlas-games-outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
