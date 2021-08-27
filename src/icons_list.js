@@ -503,7 +503,7 @@ function loadList(list) {
     if (list === "base") {
         var p = document.createElement('p');
         var div = document.createElement('div');
-        var fontFamily = "WebAtlas-base-" + style + ",WebAtlas-base";
+        var fontFamily = data.fontFamily[style];
 
         p.innerHTML = TEXTS.alphanumeric;
 
