@@ -50,10 +50,11 @@ Click on the icon you want to import, then click on `Copy class` or ` Copy HTML`
 
 ## Choice of theme
 
-4 themes (including 1 variant) are available :
+5 themes (including 2 variants) are available :
 - Original
 - Sharp
 - Outline
+- Outline-filled (variant of Outline)
 - Pixel (variant of Sharp)
 
 Copy the link corresponding to the desired style :
@@ -68,6 +69,9 @@ Copy the link corresponding to the desired style :
 <!-- Theme Outline -->
 <link rel="stylesheet" type="text/css" href="node_modules/font_webatlas/font-face/webAtlas-outline.css">
 
+<!-- Variant Outline-filled -->
+<link rel="stylesheet" type="text/css" href="node_modules/font_webatlas/font-face/webAtlas-outline-filled.css">
+
 <!-- Variant Pixel -->
 <link rel="stylesheet" type="text/css" href="node_modules/font_webatlas/font-face/webAtlas-pixel.css">
 ```
@@ -76,7 +80,7 @@ This allows you to propose several themes in your page or application, simply by
 
 ## Use multiple themes at the same time
 
-The chosen theme defines the "default" theme, but you can "force" a different theme on a particular icon by adding `original`,`sharp`, `outline` or `pixel` class :
+The chosen theme defines the "default" theme, but you can "force" a different theme on a particular icon by adding `original`, `sharp`, `outline`, `outline-filled` or `pixel` class :
 
 ```html
 <!-- Displays the login icon in the default theme -->
@@ -90,6 +94,9 @@ The chosen theme defines the "default" theme, but you can "force" a different th
 
 <!-- The icon is displayed in outline -->
 <i class="icon download outline"> Download</i>
+
+<!-- The icon is displayed in outline-filled -->
+<i class="icon download outline-filled"> Download</i>
 
 <!-- The icon is displayed in pixel -->
 <i class="icon download pixel"> Download</i>
