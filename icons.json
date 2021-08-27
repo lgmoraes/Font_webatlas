@@ -758,5 +758,12 @@
                 "arrow4-list":"ӵ"
             }
         }
+    },
+    "fontFamily": {
+        "original": "WebAtlas-base-original,WebAtlas-base",
+        "sharp": "WebAtlas-base-sharp,WebAtlas-base",
+        "outline": "WebAtlas-base-outline,WebAtlas-base",
+        "outline-filled": "WebAtlas-base-outline-filled,WebAtlas-base-outline,WebAtlas-base",
+        "pixel": "WebAtlas-base-pixel,WebAtlas-base-sharp,WebAtlas-base"
     }
 }
