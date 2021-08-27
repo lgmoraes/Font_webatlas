@@ -1,5 +1,10 @@
 # CHANGELOG #
 
+Version 2.2.0
+
+* Ajout du variant Outline-filled (variant du thème Outline)
+* La fonctionnalité "copier font-family vers le presse-papier" à été amélioré et fonctionne maintenant correctement pour les variants
+
 Version 2.1.0
 
 * Introduction du système de variants avec le thème pixel (variant du thème Sharp)
